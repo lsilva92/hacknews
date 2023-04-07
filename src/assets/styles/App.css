@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+}
+
+.Header{
+  background-color: #282c34;
+  min-height: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: sticky;
+}
+
+.Footer{
+  bottom: 0;
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+}
+
+.itemImage {
+  margin-bottom: auto;
+  margin-top: auto;
+  max-height: 300px;
+  object-fit: contain;
+  width: 100%;
+  border-radius: 2.5px;
+}
+
+.imageContainer{
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,.2);
+  height: 100vh;
+  position: relative;
+}
+
+
+.detailImage {
+  object-fit: cover;
+  opacity: 0.2;
+  width: 100%;
+  height: 100%;
+}
+
+.card__Body{
+  text-align: left;
+  overflow: hidden;
+}
+
+
+.newsBody {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  top: 0;
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+.header__categories{
+  display: block !important;
+}
+
+.bookmark{
+  position: absolute;
+  bottom:0;
+  right: 0;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.Footer__btn{
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+}
